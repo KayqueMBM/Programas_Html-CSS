@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header{
+            background-color: #0077cc;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .galeria{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+        .galeria img{
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Galeria de Imagens</h1>
+        <p>Explore uma coleção incrível de imagens!</p>
+    </header>
+    <div class="galeria">
+        <img src="imagem1.jpg" alt="Imagem 1">
+        <img src="imagem2.jpg" alt="Imagem 2">
+        <img src="imagem3.jpg" alt="Imagem 3">
+        <img src="imagem4.jpg" alt="Imagem 4">
+        <img src="imagem5.jpg" alt="Imagem 5">
+    </div>
+</body>
+</html>
